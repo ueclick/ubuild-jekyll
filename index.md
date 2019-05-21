@@ -31,6 +31,20 @@ page_sections:
     alt_text: Product Shot
   background_image: "/uploads/2019/05/21/home-screen1-bg.jpg"
   image_alignment: Right
+- template: hero-banner-w-image
+  block: hero-2
+  image_alignment: Left
+  background_image: "/uploads/2019/05/21/home-screen2-bg.jpg"
+  headline: "<strong>A passionate mix of</strong> digital<br>strategy, experience
+    design,<br>engineering and data<br>science"
+  image:
+    image: ''
+    alt_text: ''
+  content: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
