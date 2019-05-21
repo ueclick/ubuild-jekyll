@@ -90,9 +90,23 @@ page_sections:
     Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
     preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
     article</a> and create your own Blocks.</p></li></ol>
-- template: simple-footer
-  block: footer-1
-  content: Hello world! ❤︎
+- template: 3-column-text
+  block: three-column-1
+  col_1:
+    headline: ''
+    content: ''
+  col_2:
+    headline: ''
+    content: ''
+  col_3:
+    headline: ''
+    content: ''
+- template: 4-column-footer
+  block: footer-2
+  image: ''
+  col_2: ''
+  col_3: ''
+  col_4: ''
 
 ---
 foo bar
