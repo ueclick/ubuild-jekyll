@@ -93,20 +93,20 @@ page_sections:
 - template: 3-column-text
   block: three-column-1
   col_1:
-    headline: ''
+    headline: Hello 1
     content: ''
   col_2:
-    headline: ''
+    headline: Hello 2
     content: ''
   col_3:
-    headline: ''
+    headline: Hello 3
     content: ''
 - template: 4-column-footer
   block: footer-2
-  image: ''
-  col_2: ''
-  col_3: ''
-  col_4: ''
+  image: "/uploads/2018/06/21/forestry-full.svg"
+  col_2: aaaaa
+  col_3: bbbb
+  col_4: ccccc
 
 ---
 foo bar
