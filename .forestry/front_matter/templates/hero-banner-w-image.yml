@@ -64,3 +64,10 @@ fields:
       file: 
       path: 
   label: image_alignment
+- name: text_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: text color
+  default: "#57DDB0"
