@@ -20,7 +20,7 @@ page_sections:
     button_text: Demo request
 - template: hero-banner-w-image
   block: hero-2
-  headline: "<strong>We empower <br>yourbusiness</strong> by digital<br>innovation"
+  headline: "<strong>We empower your<br>business</strong> by digital<br>innovation"
   content: ''
   cta:
     enabled: false
