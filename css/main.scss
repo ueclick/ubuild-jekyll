@@ -3,6 +3,22 @@
 # only Main files contain this front matter, not partials.
 ---
 
+$fontGreen: "#57DDB0";
+
+.block-hero-2 {
+  background-size: cover !important;
+}
+
+.nav-item.active a {
+  color: #{$fontGreen} !important;
+}
+
+.button.primary {
+  background-color: #{$fontGreen} !important;
+}
+
 .block-header-2--logo {
-  height: 20px
+  img {
+    height: 18px;
+  }
 }

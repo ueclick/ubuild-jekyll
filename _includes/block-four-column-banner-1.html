@@ -1,0 +1,39 @@
+<section class="block block-four-column-1">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <h3>{{ section.column1.title }}</h3>
+        <ul>
+          {% for item in section.column1.contents %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+        <p>{{ section.column1.content }}</p>
+      </div>
+      <div class="column">
+        <h3>{{ section.column2.title }}</h3>
+        <ul>
+          {% for item in section.column2.contents %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="column">
+        <h3>{{ section.column3.title }}</h3>
+        <ul>
+          {% for item in section.column3.contents %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="column">
+        <h3>{{ section.column4.title }}</h3>
+        <ul>
+          {% for item in section.column4.contents %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

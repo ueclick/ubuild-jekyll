@@ -1,17 +1,10 @@
-{% if section.image_alignment and section.image_alignment == "Left" %}
-{% include block-hero-3.html %}
-{% else %}
+
 <section class="block block-hero-2"
          {% if section.background_image %}
          style="background-image: url('{{ section.background_image | relative_url }}')"
          {% endif %}>
   <div class="container">
     <div class="columns">
-      <div class="column media">
-        {% if section.image.enabled %}
-        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}">
-        {% endif %}
-      </div>
       <div class="column text">
         <h1><span class="light">{{ section.headline }}</span></h1>
         <p>{{ section.content }}</p>
@@ -19,7 +12,11 @@
         <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         {% endif %}
       </div>
+      <div class="column media">
+        {% if section.image.enabled %}
+        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}">
+        {% endif %}
+      </div>
     </div>
   </div>
 </section>
-{% endif %}
