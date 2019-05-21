@@ -20,6 +20,9 @@ fields:
   - type: text
     name: alt_text
     label: Alt Text
+  - name: enabled
+    type: boolean
+    label: enabled
 - type: textarea
   name: headline
   label: Headline
