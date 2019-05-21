@@ -47,3 +47,17 @@ fields:
   - type: text
     name: button_text
     label: Button text
+- name: image_alignment
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: image_alignment
