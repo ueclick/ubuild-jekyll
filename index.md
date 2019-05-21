@@ -23,13 +23,13 @@ page_sections:
   headline: "<strong>We empower <br>yourbusiness</strong> by digitalinnovation"
   content: ''
   cta:
-    enabled: true
+    enabled: false
     url: https://github.com/forestryio/ubuild-jekyll
     button_text: 'See on GitHub '
   image:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  background_image: "/uploads/2019/05/21/home-screen1-bg.jpg"
 - template: content-feature
   block: feature-1
   media_alignment: Left
