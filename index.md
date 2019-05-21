@@ -30,6 +30,7 @@ page_sections:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
   background_image: "/uploads/2019/05/21/home-screen1-bg.jpg"
+  image_alignment: Right
 - template: content-feature
   block: feature-1
   media_alignment: Left
