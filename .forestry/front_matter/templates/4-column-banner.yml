@@ -2,6 +2,13 @@
 label: 4-column-banner
 hide_body: true
 fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  default: four-column-banner-1
+  hidden: true
 - name: background_image
   type: file
   config:
