@@ -48,7 +48,7 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
-  text_color: ''
+  text_color: "#29243D"
 - template: content-feature
   block: feature-1
   media_alignment: Left
