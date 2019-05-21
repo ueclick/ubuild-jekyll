@@ -29,8 +29,10 @@ page_sections:
   image:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
+    enabled: false
   background_image: "/uploads/2019/05/21/home-screen1-bg.jpg"
   image_alignment: Right
+  text_color: "#57DDB0"
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
@@ -40,11 +42,13 @@ page_sections:
   image:
     image: ''
     alt_text: ''
+    enabled: false
   content: ''
   cta:
     enabled: false
     url: ''
     button_text: ''
+  text_color: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
