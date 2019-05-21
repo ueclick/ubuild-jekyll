@@ -1,4 +1,29 @@
 ---
 label: 4-column-banner
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
+- name: column1
+  type: include
+  config: {}
+  template: list-column
+  label: column1
+- name: column2
+  type: include
+  config: {}
+  template: list-column
+  label: column2
+- name: column3
+  type: include
+  config: {}
+  template: list-column
+  label: column3
+- name: column4
+  type: include
+  config: {}
+  template: list-column
+  label: column4
