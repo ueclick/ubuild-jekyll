@@ -2,11 +2,11 @@
 label: 4-column-banner
 hide_body: true
 fields:
-- name: image
+- name: background_image
   type: file
   config:
     maxSize: 250
-  label: image
+  label: background image
 - name: column1
   type: include
   config: {}
