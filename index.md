@@ -103,21 +103,21 @@ page_sections:
     content: ''
 - template: 4-column-banner
   block: four-column-banner-1
-  background_image: "/uploads/2019/05/21/home-screen3-bg.png"
+  background_image: ''
   column1:
-    image: "/uploads/2019/05/21/screen3-icon1.png"
+    image: ''
     title: ''
     contents: []
   column2:
-    image: "/uploads/2019/05/21/screen3-icon2.png"
+    image: ''
     title: ''
     contents: []
   column3:
-    image: "/uploads/2019/05/21/screen3-icon3.png"
+    image: ''
     title: ''
     contents: []
   column4:
-    image: "/uploads/2019/05/21/screen3-icon4.png"
+    image: ''
     title: ''
     contents: []
 - template: 4-column-footer
