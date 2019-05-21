@@ -21,11 +21,77 @@ fields:
     config:
       required: false
     label: title
-  - name: content
+  - name: contents
     type: list
     config:
       use_select: false
       min: 
       max: 
-    label: content
+    label: contents
   label: column1
+- name: column2
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: contents
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: contents
+  label: column2
+- name: column3
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: contents
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: contents
+  label: column3
+- name: column4
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: contents
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: contents
+  label: column4
