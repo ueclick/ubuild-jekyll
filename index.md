@@ -90,6 +90,40 @@ page_sections:
     Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
     preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
     article</a> and create your own Blocks.</p></li></ol>
+- template: 4-column-banner
+  background_image: "/uploads/2019/05/21/home-screen3-bg.png"
+  title: ''
+  content: []
+  image: ''
+  column1:
+    image: "/uploads/2019/05/21/screen3-icon1.png"
+    content: []
+    contents:
+    - Qualitative Research
+    - Quantitative Research
+    - Technology Strategy & Roadmapping
+    - Design Thinking ideation
+    title: Digital Strategy Consultation
+  column2:
+    image: "/uploads/2019/05/21/screen3-icon2.png"
+    title: Experience Design
+    contents:
+    - Experience Design
+    - Service Design Blueprint
+  column3:
+    image: "/uploads/2019/05/21/screen3-icon3.png"
+    title: Engineering
+    contents:
+    - Engineering
+    - Custom Software Development
+    - Technical Platform Development and Integration
+  column4:
+    image: "/uploads/2019/05/21/screen3-icon4.png"
+    contents:
+    - Qualitative Research
+    - Quantitative Research
+    - Technology Strategy & Roadmapping
+    title: Data Science
 - template: 3-column-text
   block: three-column-1
   col_1:
