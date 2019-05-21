@@ -8,22 +8,24 @@ fields:
     maxSize: 250
   label: background image
 - name: column1
-  type: include
+  type: field_group
   config: {}
-  template: list-column
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: content
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: content
   label: column1
-- name: column2
-  type: include
-  config: {}
-  template: list-column
-  label: column2
-- name: column3
-  type: include
-  config: {}
-  template: list-column
-  label: column3
-- name: column4
-  type: include
-  config: {}
-  template: list-column
-  label: column4
