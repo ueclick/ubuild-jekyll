@@ -1,4 +1,4 @@
-{% if section.image_alignment and section.image_alignment == "Left" %}
+{% if section.image_alignment and section.image_alignment == "Right" %}
 {% include block-hero-3.html %}
 {% else %}
 <section class="block block-hero-2"
@@ -12,7 +12,7 @@
         <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}">
         {% endif %}
       </div>
-      <div class="column text">
+      <div class="column text" style="color: {{ section.text_color }}">
         <h1><span class="light">{{ section.headline }}</span></h1>
         <p>{{ section.content }}</p>
         {% if section.cta and section.cta.enabled == true %}

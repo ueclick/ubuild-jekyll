@@ -5,6 +5,25 @@
 
 $fontGreen: "#57DDB0";
 
+strong {
+  font-weight: 600;
+}
+
+h1 span.light {
+  font-weight: 100;
+}
+
+@media screen and (min-width:700px) {
+  h1 {
+    font-size:3rem !important;
+  }
+}
+@media screen and (min-width:1000px) {
+  h1 {
+    font-size:3rem !important;
+  }
+}
+
 .block-hero-2 {
   background-size: cover !important;
 }
