@@ -87,8 +87,7 @@ page_sections:
   block: footer-2
   image: "/uploads/2019/05/21/nav-logo.png"
   col_2: Partners:<br>6e Group<br>Onions lab
-  col_3: '<span style="text-decoration: underline;"><span class="s1">Contact</span></span><span
-    class="s1"><br></span><span style="text-decoration: underline;"><span class="s1">Career</span></span>'
+  col_3: <span class="s1">Contact<br>Career</span>
   col_4: 4F, Building 26, No.196 Ou Yang Rood,<br>Hongkou District, Shanghai
 menu:
   main:
