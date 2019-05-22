@@ -160,3 +160,47 @@ h1 span.light {
     height: 18px;
   }
 }
+
+.block-header-2 .nav-item {
+  margin: 0 !important;
+  padding: 0 0.5rem;
+}
+
+.block-header-2--nav {
+
+  .nav-items {
+    li {
+      position: relative;
+      a.hover {
+        pointer-events: none;
+      }
+    }
+
+    li:hover .sub-nav-items {
+      height: auto;
+    }
+
+    .sub-nav-items {
+      position: absolute;
+      overflow: hidden;
+      left: 0;
+      width: 150%;
+      height: 0;
+      padding: 4px;
+      box-sizing: border-box;
+      background-color: rgba(255, 255, 255, 0.9);
+
+      li {
+        margin: 4px 4px;
+        list-style-type:none;
+        text-align: left;
+        a {
+          color: #333 !important;
+          &:hover {
+            color: #{$fontGreen} !important;
+          }
+        }
+      }
+    }
+  }
+}
