@@ -19,9 +19,15 @@ page_sections:
       link_text: Co-working
     - link: Data_Science
       link_text: Data_Science
+  - link: "/About"
+    link_text: About
+    sub_links: []
+  - link: "/Contact_Us"
+    link_text: Contact_Us
+    sub_links: []
   cta:
-    url: ''
-    button_text: ''
+    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
+    button_text: Demo request
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Right
