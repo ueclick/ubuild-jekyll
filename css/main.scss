@@ -19,6 +19,14 @@ h1 span.light {
   min-height:100vh;
 }
 
+.block-footer-2 {
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media screen and (min-width:700px) {
   h1 {
     font-size:3rem !important;
