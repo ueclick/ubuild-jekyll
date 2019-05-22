@@ -142,6 +142,7 @@ page_sections:
     image: "/uploads/2019/05/21/screen3-icon2.png"
     contents:
     - Experience Design
+    - Service Design Blueprint
   - template: feature-column
     title: Engineering
     image: "/uploads/2019/05/21/screen3-icon3.png"
