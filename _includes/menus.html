@@ -7,7 +7,17 @@
   <nav class="block-header-2--nav">
     <ul class="nav-items">
       {% for nav_item in site.data.menus.header.menus %}
-      <li class="nav-item {% if page.title == nav_item.link_text %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %}" href="{{ nav_item.link | relative_url }}">{{ nav_item.link_text }}</a>
+      {% assign isActive = false %}
+      {% if page.title == nav_item.link_text %}
+      {% assign isActive = true %}
+      {% endif %}
+      {% for item in nav_item.sub_links %}
+        {% if page.title == item.link_text %}
+        {% assign isActive = true %}
+        {% break %}
+        {% endif %}
+      {% endfor %}
+      <li class="nav-item {% if isActive %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %}" href="{{ nav_item.link | relative_url }}">{{ nav_item.link_text }}</a>
         <ul class="sub-nav-items">
           {% for sub_item in nav_item.sub_links %}
             <li><a href="{{ sub_item.link | relative_url }}">{{ sub_item.link_text }}</a></li>
