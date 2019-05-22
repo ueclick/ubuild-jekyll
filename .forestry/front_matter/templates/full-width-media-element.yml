@@ -13,3 +13,8 @@ fields:
 - type: text
   name: caption
   label: Caption
+- name: background_image
+  type: file
+  config:
+    maxSize: 250
+  label: background image
