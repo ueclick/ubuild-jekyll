@@ -9,12 +9,16 @@ page_sections:
   navigation:
   - link: "/"
     link_text: Home
+    sub_links: []
   - link: "/Solutions"
     link_text: Solutions
+    sub_links: []
   - link: "/About"
     link_text: About
-  - link: "/Contact_Us"
+    sub_links: []
+  - link: "/Contact Us"
     link_text: Contact Us
+    sub_links: []
   cta:
     url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
     button_text: Demo request
@@ -33,6 +37,7 @@ page_sections:
   background_image: "/uploads/2019/05/21/home-screen1-bg.jpg"
   image_alignment: Right
   text_color: "#57DDB0"
+  title: ''
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
@@ -49,6 +54,7 @@ page_sections:
     url: ''
     button_text: ''
   text_color: "#29243D"
+  title: ''
 - template: multiple-column-banner
   block: multiple-feature-column-1
   columns:
