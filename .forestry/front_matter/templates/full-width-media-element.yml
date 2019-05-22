@@ -6,7 +6,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: media-1
+  default: media-3
 - type: file
   name: image
   label: Image
