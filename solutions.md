@@ -66,6 +66,28 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- template: hero-banner-w-image
+  block: hero-2
+  image_alignment: Left
+  text_color: "#29243D"
+  background_image: "/uploads/2019/05/22/social-screen2-bg.png"
+  content: "<strong>Membership: </strong>Create standardised or customised plans for
+    individual and corporate members. Design benefit programme to better serve your
+    loyal members.<br><br><strong>Discussion forums: </strong>Set up internal forums
+    to enhance business and leisure communications. This creates a sense of belonging
+    within the community.<br>Directory and profile: Members can search other companies
+    or members in our directories easily. Business information is also disclosed through
+    updated profile page."
+  title: Community management
+  image:
+    image: "/uploads/2019/05/22/co-working-screen4-kv.png"
+    enabled: true
+    alt_text: ''
+  headline: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 - template: 4-column-footer
   block: footer-2
   image: ''
