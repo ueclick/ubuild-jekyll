@@ -9,7 +9,7 @@ page_sections:
   navigation:
   - link: "/"
     link_text: Home
-  - link: "/Solutions"
+  - link: "./Solutions"
     link_text: Solutions
   - link: "/About"
     link_text: About
