@@ -80,3 +80,8 @@ fields:
     color_format: Hex
   label: text color
   default: "#57DDB0"
+- name: video_url
+  type: text
+  config:
+    required: false
+  label: video url
