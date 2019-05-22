@@ -132,8 +132,10 @@ page_sections:
   - template: feature-column
     title: Digital Strategy Consultation
     contents:
-    - Quantitative Research
     - Qualitative Research
+    - Quantitative Research
+    - Technology Strategy & Roadmapping
+    - Design Thinking ideation
     image: "/uploads/2019/05/21/screen3-icon1.png"
   - template: feature-column
     title: Experience Design
