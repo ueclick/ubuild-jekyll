@@ -130,6 +130,12 @@ h1 span.light {
   }
 }
 
+@media screen and (min-width:700px) {
+  .block-hero-2 .column.media img {
+    max-width:100% !important;
+  }
+}
+
 .block-hero-2 {
   background-size: cover !important;
 
