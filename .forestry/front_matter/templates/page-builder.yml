@@ -34,5 +34,6 @@ fields:
   - 4-column-banner
   - multiple-column-banner
 pages:
+- about.md
 - solutions.md
 - index.md
