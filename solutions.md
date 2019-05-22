@@ -7,6 +7,8 @@ page_sections:
   block: header-2
   logo: "/uploads/2019/05/21/nav-logo.png"
   navigation:
+  - link: "/"
+    link_text: Home
   - link: "/Solutions"
     link_text: Solutions
   cta:
