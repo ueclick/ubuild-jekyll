@@ -24,7 +24,7 @@ page_sections:
     button_text: ''
 - template: hero-banner-w-image
   block: hero-2
-  image_alignment: Left
+  image_alignment: Right
   text_color: "#29243D"
   background_image: "/uploads/2019/05/22/social-screen1-bg.png"
   image:
