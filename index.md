@@ -89,6 +89,11 @@ page_sections:
   col_2: aaaaa
   col_3: bbbb
   col_4: ccccc
+menu:
+  main:
+    identifier: home
+    weight: 1
+    title: Home
 
 ---
 foo bar
