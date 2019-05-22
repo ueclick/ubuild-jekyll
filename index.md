@@ -126,6 +126,31 @@ page_sections:
   col_2: aaaaa
   col_3: bbbb
   col_4: ccccc
+- template: multiple-column-banner
+  columns:
+  - template: feature-column
+    title: Digital Strategy Consultation
+    contents:
+    - Quantitative Research
+    - Qualitative Research
+    image: "/uploads/2019/05/21/screen3-icon1.png"
+  - template: feature-column
+    title: Experience Design
+    image: "/uploads/2019/05/21/screen3-icon2.png"
+    contents:
+    - Experience Design
+  - template: feature-column
+    title: Engineering
+    image: "/uploads/2019/05/21/screen3-icon3.png"
+    contents:
+    - Custom Software Development
+    - Engineering
+  - template: feature-column
+    title: Data Science
+    image: "/uploads/2019/05/21/screen3-icon4.png"
+    contents:
+    - Qualitative Research
+  background_image: "/uploads/2019/05/21/home-screen3-bg.png"
 
 ---
 foo bar
