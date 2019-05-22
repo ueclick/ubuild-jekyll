@@ -13,6 +13,12 @@ h1 span.light {
   font-weight: 100;
 }
 
+.block-media-1 {
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height:100vh;
+}
+
 @media screen and (min-width:700px) {
   h1 {
     font-size:3rem !important;
