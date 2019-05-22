@@ -1,4 +1,21 @@
 ---
 label: feature-column
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
+- name: contents
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: contents
