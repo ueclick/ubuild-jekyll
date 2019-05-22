@@ -80,7 +80,7 @@ page_sections:
     updated profile page."
   title: Community management
   image:
-    image: "/uploads/2019/05/22/co-working-screen4-kv.png"
+    image: "/uploads/2019/05/22/co-working-screen4-kv-1.png"
     enabled: true
     alt_text: ''
   headline: ''
