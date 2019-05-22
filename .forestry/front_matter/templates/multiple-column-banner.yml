@@ -2,6 +2,13 @@
 label: multiple-column-banner
 hide_body: true
 fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  default: multiple-feature-column-1
+  hidden: true
 - name: columns
   type: blocks
   label: columns
