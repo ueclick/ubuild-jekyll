@@ -24,14 +24,15 @@ page_sections:
     button_text: ''
 - template: hero-banner-w-image
   block: hero-2
-  image_alignment: []
-  text_color: "#57DDB0"
-  background_image: ''
+  image_alignment: Left
+  text_color: "#29243D"
+  background_image: "/uploads/2019/05/22/social-screen1-bg.png"
   image:
     image: ''
     alt_text: ''
     enabled: false
-  headline: ''
+  headline: "<strong>Data-driven social-CRM<br>system</strong> to enhance<br>customer
+    experience"
   content: ''
   cta:
     enabled: false
