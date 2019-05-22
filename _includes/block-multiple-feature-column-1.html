@@ -1,0 +1,22 @@
+<section class="block block-multiple-column-1"
+         {% if section.background_image %}
+         style="background-image: url('{{ section.background_image | relative_url }}')"
+         {% endif %}>
+  <div class="container">
+    <div class="columns">
+      {% for item in section.columns %}
+      <div class="column column-{{ forloop.length }}">
+        <img class="column-image" src="{{ item.image | relative_url }}">
+        <div class="column-content">
+          <h3>{{ item.title }}</h3>
+          <ul>
+            {% for content in item.contents %}
+            <li>{{ content }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
