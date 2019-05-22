@@ -1,4 +1,17 @@
 ---
 label: multiple-column-banner
 hide_body: true
-fields: []
+fields:
+- name: columns
+  type: blocks
+  label: columns
+  template_types:
+  - feature-column
+  config:
+    min: 
+    max: 
+- name: background_image
+  type: file
+  config:
+    maxSize: 250
+  label: background image
