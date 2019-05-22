@@ -1,7 +1,11 @@
-<section class="block block-four-column-1">
+<section class="block block-four-column-1"
+         {% if section.background_image %}
+         style="background-image: url('{{ section.background_image | relative_url }}')"
+         {% endif %}>
   <div class="container">
     <div class="columns">
       <div class="column">
+        <img class="column-image" src="{{ section.column1.image | relative_url }}">
         <h3>{{ section.column1.title }}</h3>
         <ul>
           {% for item in section.column1.contents %}
@@ -11,6 +15,7 @@
         <p>{{ section.column1.content }}</p>
       </div>
       <div class="column">
+        <img class="column-image" src="{{ section.column2.image | relative_url }}">
         <h3>{{ section.column2.title }}</h3>
         <ul>
           {% for item in section.column2.contents %}
@@ -19,6 +24,7 @@
         </ul>
       </div>
       <div class="column">
+        <img class="column-image" src="{{ section.column3.image | relative_url }}">
         <h3>{{ section.column3.title }}</h3>
         <ul>
           {% for item in section.column3.contents %}
@@ -27,6 +33,7 @@
         </ul>
       </div>
       <div class="column">
+        <img class="column-image" src="{{ section.column4.image | relative_url }}">
         <h3>{{ section.column4.title }}</h3>
         <ul>
           {% for item in section.column4.contents %}

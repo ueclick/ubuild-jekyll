@@ -127,6 +127,7 @@ page_sections:
   col_3: bbbb
   col_4: ccccc
 - template: multiple-column-banner
+  block: multiple-feature-column-1
   columns:
   - template: feature-column
     title: Digital Strategy Consultation

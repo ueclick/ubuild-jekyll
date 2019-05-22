@@ -24,6 +24,64 @@ h1 span.light {
   }
 }
 
+.block-four-column-1 {
+  --bg:#ffcb3c;
+  --text:#fff;
+  display: flex;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  -ms-flex-pack:center;
+  justify-content:center;
+  align-items: center;
+  min-height:100vh;
+  background-color:var(--bg);
+  color:var(--text);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:100%;
+
+  .column-image {
+    width: 160px;
+  }
+
+  h3 {
+    margin-top: 3rem;
+  }
+
+  .columns {
+    display:-ms-flexbox;
+    display:flex;
+    justify-content: center;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin:-32px;
+    margin:-2rem;
+
+    .column {
+      -ms-flex:0 0 calc(100% - 4rem);
+      flex:0 0 calc(100% - 4rem);
+      margin:32px;
+      margin:2rem;
+      text-align:center
+    }
+  }
+}
+
+@media screen and (min-width:750px) {
+  .block-four-column-1 .columns .column {
+    -ms-flex:0 0 calc(50% - 8rem);
+    flex:0 0 calc(50% - 8rem)
+  }
+}
+
+
+@media screen and (min-width:1000px) {
+  .block-four-column-1 .columns .column {
+    -ms-flex:0 0 calc(25% - 4rem);
+    flex:0 0 calc(25% - 4rem)
+  }
+}
+
 .block-hero-2 {
   background-size: cover !important;
 }
