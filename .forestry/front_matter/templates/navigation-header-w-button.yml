@@ -20,6 +20,24 @@ fields:
   - type: text
     name: link_text
     label: Link text
+  - name: sub_links
+    type: field_group_list
+    fields:
+    - name: link
+      type: text
+      config:
+        required: false
+      label: link
+    - name: link_text
+      type: text
+      config:
+        required: false
+      label: link text
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: sub links
   config:
     labelField: link_text
 - type: field_group
