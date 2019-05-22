@@ -14,5 +14,8 @@ page_sections:
   cta:
     url: ''
     button_text: ''
+menu:
+  main:
+    weight: 3
 
 ---
