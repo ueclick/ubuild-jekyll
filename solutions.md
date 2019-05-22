@@ -22,8 +22,8 @@ page_sections:
   - link: "/About"
     link_text: About
     sub_links: []
-  - link: "/Contact_Us"
-    link_text: Contact_Us
+  - link: "/Contact Us"
+    link_text: Contact Us
     sub_links: []
   cta:
     url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
