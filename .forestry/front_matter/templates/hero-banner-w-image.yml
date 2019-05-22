@@ -30,6 +30,15 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: title
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: title
 - type: textarea
   name: content
   label: Content
