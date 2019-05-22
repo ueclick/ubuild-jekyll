@@ -116,12 +116,6 @@ page_sections:
   col_3:
     headline: Hello 3
     content: ''
-- template: 4-column-footer
-  block: footer-2
-  image: "/uploads/2018/06/21/forestry-full.svg"
-  col_2: aaaaa
-  col_3: bbbb
-  col_4: ccccc
 - template: multiple-column-banner
   block: multiple-feature-column-1
   columns:
@@ -156,6 +150,12 @@ page_sections:
   image: "/uploads/2019/05/22/screen4-kv.png"
   background_image: "/uploads/2019/05/22/home-screen4-bg.png"
   caption: ''
+- template: 4-column-footer
+  block: footer-2
+  image: "/uploads/2018/06/21/forestry-full.svg"
+  col_2: aaaaa
+  col_3: bbbb
+  col_4: ccccc
 
 ---
 foo bar
