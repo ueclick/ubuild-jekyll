@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Homepage
+title: Home
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
@@ -93,7 +93,6 @@ menu:
   main:
     identifier: home
     weight: 1
-    title: Home
 
 ---
 foo bar
