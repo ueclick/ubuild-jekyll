@@ -32,5 +32,6 @@ fields:
   - simple-footer
   - 4-column-footer
   - 4-column-banner
+  - multiple-column-banner
 pages:
 - index.md
