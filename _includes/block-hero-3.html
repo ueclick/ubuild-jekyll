@@ -1,9 +1,15 @@
-
 <section class="block block-hero-2"
          {% if section.background_image %}
          style="background-image: url('{{ section.background_image | relative_url }}')"
          {% endif %}>
   <div class="container">
+    {% if section.video_url %}
+    <div class="video-bg-wrap">
+      <video autoplay muted loop id="myVideo">
+        <source src="{{ section.video_url }}" type="video/mp4">
+      </video>
+    </div>
+    {% endif %}
     <div class="columns">
       <div class="column text" style="color: {{ section.text_color }}">
         <h1><span class="light">{{ section.headline }}</span></h1>
