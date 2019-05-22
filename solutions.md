@@ -9,8 +9,16 @@ page_sections:
   navigation:
   - link: "/"
     link_text: Home
+    sub_links: []
   - link: "/Solutions"
     link_text: Solutions
+    sub_links:
+    - link: Social_CRM
+      link_text: Social_CRM
+    - link: Co-working
+      link_text: Co-working
+    - link: Data_Science
+      link_text: Data_Science
   cta:
     url: ''
     button_text: ''
