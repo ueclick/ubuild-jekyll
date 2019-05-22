@@ -19,6 +19,7 @@ page_sections:
   image_alignment: Right
   text_color: "#57DDB0"
   title: ''
+  video_url: http://display.6edigital.com/videos/video.mp4
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
@@ -36,6 +37,7 @@ page_sections:
     button_text: ''
   text_color: "#29243D"
   title: ''
+  video_url: ''
 - template: multiple-column-banner
   block: multiple-feature-column-1
   columns:
