@@ -21,6 +21,10 @@ page_sections:
     button_text: ''
   title: ''
   video_url: ''
+  contents:
+  - sub_title: ''
+    list:
+    - content: ''
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
@@ -49,6 +53,24 @@ page_sections:
     url: ''
     button_text: ''
   video_url: ''
+  contents:
+  - sub_title: "<strong>Omni-channel integrations:</strong> "
+    list:
+    - content: Based on WeChat ecosystem for acquisition, engagement, conversion and
+        sharing
+    - content: Consider in-store consumer and sales data. Engage and enhance offline
+        experience.
+    - content: All-rounded social CRM strategy
+  - sub_title: "<strong>360° Member Persona</strong>"
+    list:
+    - content: Collect member general information, engagement records, purchase preferences
+        and promotion responses
+    - content: Better understand our members by defining their monetary value, influence,
+        activeness and behaviour cycle.
+  - sub_title: "<strong>Designed for continuous growth</strong>"
+    list:
+    - content: Flexible feature upgrade to encompass business expansion.
+    - content: Optimise user experience based on market feedback.
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
@@ -71,6 +93,10 @@ page_sections:
     url: ''
     button_text: ''
   video_url: ''
+  contents:
+  - sub_title: ''
+    list:
+    - content: ''
 menu:
   main:
     weight: 2
