@@ -27,9 +27,7 @@ page_sections:
   image_alignment: Left
   text_color: "#29243D"
   background_image: "/uploads/2019/05/22/social-screen2-bg.png"
-  title: |-
-    All-in-one digital platform for
-    small-to-medium brands?
+  title: All-in-one digital platform for <br>small-to-medium brands?
   content: '<strong>Omni-channel integrations:</strong> Consider online and office
     sales and <br>marketing channels during the whole S-CRM cycle of acquisition,
     <br>engagement, conversion and sharing to draw up an all-rounded S-CRM strategy.<br><br><strong>360°
