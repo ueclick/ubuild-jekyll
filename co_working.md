@@ -76,5 +76,58 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- template: hero-banner-w-image
+  block: hero-2
+  text_color: "#29243D"
+  image_alignment: Left
+  background_image: "/uploads/2019/05/23/co-working-screen4-bg.png"
+  image:
+    image: "/uploads/2019/05/23/co-working-screen4-kv.png"
+    enabled: true
+    alt_text: ''
+  title: Community management
+  contents:
+  - sub_title: "<strong>Membership</strong>:"
+    list:
+    - content: Create standardised or customised plans for individual and corporate
+        members. Design benefit programme to better serve your loyal members.
+  - sub_title: "<strong>Discussion forums</strong>:"
+    list:
+    - content: Set up internal forums to enhance business and leisure communications.
+        This creates a sense of belonging within the community.
+  - sub_title: "<strong>Directory and profile</strong>:"
+    list:
+    - content: Members can search other companies or members in our directories easily.
+        Business information is also disclosed through updated profile page.
+  video_url: ''
+  headline: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
+- template: hero-banner-w-image
+  block: hero-2
+  text_color: "#FFFFFF"
+  image_alignment: Right
+  background_image: "/uploads/2019/05/23/co-working-screen5-bg.png"
+  title: Dedicated project team all way through
+  contents:
+  - sub_title: ''
+    list:
+    - content: Work with an experienced team from brand strategy, user experience
+        design, visual design to technical development, testing and launch.
+    - content: Thorough consultation will take place with project stakeholders before
+        kicking-off the project to ensure we fully understand your expectations.
+    - content: Support and maintenance service is available after launch
+  image:
+    image: ''
+    alt_text: ''
+    enabled: false
+  video_url: ''
+  headline: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 
 ---
