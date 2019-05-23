@@ -161,5 +161,54 @@ page_sections:
     title: Third-Party Service Integrations
     image: "/uploads/2019/05/23/co-working-screen6-icon5.png"
     contents: []
+- template: hero-banner-w-image
+  block: hero-2
+  text_color: "#29243D"
+  image_alignment: Left
+  background_image: "/uploads/2019/05/23/co-working-screen7-bg.png"
+  headline: "<strong>OnePiece Work</strong><br>Build a community"
+  image:
+    image: ''
+    alt_text: ''
+    enabled: false
+  video_url: ''
+  title: ''
+  contents: []
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
+- template: hero-banner-w-image
+  block: hero-2
+  text_color: "#29243D"
+  image_alignment: Left
+  background_image: "/uploads/2019/05/23/co-working-screen8-bg.png"
+  contents:
+  - sub_title: "<strong>Cross-border location management</strong>:"
+    list:
+    - content: Manage all locations in one backend with real-time view on occupancy
+        and amenity usage. Members can see who else is in OnePiece to search for outbound
+        business opportunities.
+  - sub_title: "<strong>Member Management</strong>:"
+    list:
+    - content: Check real-time member plan status and auto-plan renewal setting to
+        avoid tedious paperwork. More time is given to set-up events, activities and
+        discussions to connect members.
+  - sub_title: "<strong>Third-party service integration</strong>:"
+    list:
+    - content: Members access to locations and meeting rooms can be controlled with
+        smart-lock service integrations. Online payment service is also added to aid
+        amenity booking and plan upgrade.
+  image:
+    image: ''
+    alt_text: ''
+    enabled: false
+  video_url: ''
+  headline: ''
+  title: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 
 ---
