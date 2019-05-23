@@ -116,8 +116,12 @@ page_sections:
     list:
     - content: Work with an experienced team from brand strategy, user experience
         design, visual design to technical development, testing and launch.
+  - sub_title: ''
+    list:
     - content: Thorough consultation will take place with project stakeholders before
         kicking-off the project to ensure we fully understand your expectations.
+  - sub_title: ''
+    list:
     - content: Support and maintenance service is available after launch
   image:
     image: ''
