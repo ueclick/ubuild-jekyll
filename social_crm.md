@@ -68,7 +68,7 @@ page_sections:
     - content: Optimise user experience based on market feedback.
 - template: hero-banner-w-image
   block: hero-2
-  image_alignment: Left
+  image_alignment: Right
   text_color: "#29243D"
   background_image: "/uploads/2019/05/23/social-screen3-bg.png"
   content: "<strong>Social conversion: </strong><br>Use social communication buzz
@@ -88,7 +88,21 @@ page_sections:
     url: ''
     button_text: ''
   video_url: ''
-  contents: []
+  contents:
+  - sub_title: "<strong>Social conversion:</strong>"
+    list:
+    - content: Use social communication buzz to generate sales in WeChat-based social
+        commerce platform or pop-up stores.
+  - sub_title: "<strong>Online + offline:</strong>"
+    list:
+    - content: Drive online members to offline retail outlets
+    - content: Encourage offline customers to participate in online engagement
+    - content: Smoothen the digital and brick-and-mortar brand experiences
+  - sub_title: "<strong>Service design capability:</strong>"
+    list:
+    - content: Aim to improve service quality and interactions between a brand and
+        the customers
+    - content: Review and design the whole customer journey of all touch-points
 menu:
   main:
     weight: 2
