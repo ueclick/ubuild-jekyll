@@ -30,7 +30,7 @@ fields:
       section: 
       file: 
       path: 
-  label: image_alignment
+  label: Image_alignment
 - type: field_group
   name: image
   label: Image
@@ -48,7 +48,7 @@ fields:
   type: text
   config:
     required: false
-  label: video url
+  label: Video url
 - type: textarea
   name: headline
   label: Headline
@@ -64,7 +64,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: title
+  label: Title
 - type: textarea
   name: content
   label: Content
