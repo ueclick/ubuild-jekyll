@@ -35,7 +35,7 @@ fields:
   - multiple-column-banner
 pages:
 - data-science.md
-- co-working.md
+- co_working.md
 - index.md
 - contact_us.md
 - about.md
