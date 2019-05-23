@@ -129,5 +129,37 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- template: multiple-column-banner
+  block: multiple-feature-column-1
+  background_image: "/uploads/2019/05/23/co-working-screen6-bg.png"
+  columns:
+  - template: feature-column
+    image: "/uploads/2019/05/23/co-working-screen6-icon1.png"
+    title: Location Management
+    contents:
+    - Multi-country location listings
+    - Amenities management
+    - Real-time booking log
+  - template: feature-column
+    title: User Management
+    contents:
+    - Staff management and access
+    - Company and member management
+    - Flexible member plan setting
+    image: "/uploads/2019/05/23/co-working-screen6-icon2.png"
+  - template: feature-column
+    title: Community Management
+    image: "/uploads/2019/05/23/co-working-screen6-icon3.png"
+    contents:
+    - Event and notice publication
+    - Discussion forum
+  - template: feature-column
+    title: Performance dashboard
+    image: "/uploads/2019/05/23/co-working-screen6-icon4.png"
+    contents: []
+  - template: feature-column
+    title: Third-Party Service Integrations
+    image: "/uploads/2019/05/23/co-working-screen6-icon5.png"
+    contents: []
 
 ---
