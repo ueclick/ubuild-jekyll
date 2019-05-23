@@ -15,13 +15,13 @@ header:
       sub_links:
       - link: "/Social_CRM"
         link_text: Social_CRM
-        title: "Social CRM"
+        title: "SCRM/Social Commerce"
       - link: "/Co_working"
         link_text: Co_working
-        title: "Co working"
+        title: "Co-working Management"
       - link: "/Data_Science"
         link_text: Data_Science
-        title: "Data Science"
+        title: "Data Intelligence Algorithm Engine"
     - link: "/About"
       link_text: About
       title: "About"
