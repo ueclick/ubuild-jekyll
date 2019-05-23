@@ -40,9 +40,9 @@ page_sections:
     upgrade to<br>encompass business expansion. Optimise user experience based on
     <br>market feedback.'
   image:
-    image: ''
+    image: "/uploads/2019/05/23/social-screen2-kv.png"
     alt_text: ''
-    enabled: false
+    enabled: true
   headline: ''
   cta:
     enabled: false
