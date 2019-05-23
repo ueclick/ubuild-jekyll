@@ -125,9 +125,13 @@ h1 span.light {
       -ms-flex:0 0 calc(25% - 4rem);
       flex:0 0 calc(25% - 4rem)
     }
-    .column-5,.column-3 {
+    .column-3 {
       -ms-flex:0 0 calc(33.33% - 4rem);
       flex:0 0 calc(33.33% - 4rem);
+    }
+    .column-5 {
+      -ms-flex:0 0 calc(20% - 4rem);
+      flex:0 0 calc(20% - 4rem);
     }
   }
 }
