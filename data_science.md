@@ -83,10 +83,10 @@ page_sections:
     alt_text: ''
   contents:
   - sub_title: "<strong>Free to use</strong>: The machine learning engine is free
-      to use"
+      to use<br>"
     list: []
   - sub_title: "<strong>Safe to use</strong>: We would not store any data without
-      your authorization and would protect your data privacy in GDPR standard:"
+      your authorization and would protect your data privacy in GDPR standard:<br>"
     list: []
   - sub_title: ''
     list:
