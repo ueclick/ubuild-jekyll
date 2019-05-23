@@ -81,9 +81,9 @@ fields:
     default: ''
     config:
       required: false
-      wysiwyg: false
+      wysiwyg: true
       schema:
-        format: markdown
+        format: html
     label: sub title
   - name: list
     type: field_group
@@ -94,9 +94,9 @@ fields:
       default: ''
       config:
         required: false
-        wysiwyg: false
+        wysiwyg: true
         schema:
-          format: markdown
+          format: html
       label: content
     label: list
   label: Contents
