@@ -103,6 +103,30 @@ page_sections:
     - content: Aim to improve service quality and interactions between a brand and
         the customers
     - content: Review and design the whole customer journey of all touch-points
+- template: hero-banner-w-image
+  block: hero-2
+  text_color: "#57DDB0"
+  image_alignment: Left
+  background_image: "/uploads/2019/05/23/social-screen4-bg.png"
+  image:
+    image: "/uploads/2019/05/23/social-screen4-kv.png"
+    enabled: true
+    alt_text: ''
+  title: Data-driven marketing decisions
+  contents:
+  - sub_title: ''
+    list:
+    - content: 'Data accumulation is the foundation of knowing your customers. Next
+        step is to digest and generate insights. Our machine learning capability helps
+        to process large amount of data and create customer segmentation. Go to <span
+        style="text-decoration: underline;">Data Processing Algorithm Engine</span>
+        to read more.'
+  video_url: ''
+  headline: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 menu:
   main:
     weight: 2
