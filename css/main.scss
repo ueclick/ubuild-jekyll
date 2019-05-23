@@ -50,8 +50,7 @@ h1 span.light {
   -ms-flex-pack:center;
   justify-content:center;
   align-items: center;
-  height: 100vh;
-  max-height: 64rem;
+  min-height: 100vh;
   background-color:var(--bg);
   color:var(--text);
   background-repeat:no-repeat;
@@ -76,7 +75,7 @@ h1 span.light {
     margin-left: 0.875rem;
     width: 150%;
     li {
-      margin: 4px;
+      margin: 8px 4px;
       color: #CCD6D2;
       font-size: 0.875rem;
       text-align: left;
@@ -142,9 +141,6 @@ h1 span.light {
 .block-hero-2 {
   position: relative;
   background-size: cover !important;
-  min-height: unset;
-  height: 100vh;
-  max-height: 64rem;
   background-color: white;
 
   .column.text p {
