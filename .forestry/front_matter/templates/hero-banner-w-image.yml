@@ -83,7 +83,7 @@ fields:
       wysiwyg: true
       schema:
         format: html
-    label: sub title
+    label: Sub title
   - name: list
     type: field_group_list
     fields:
@@ -95,12 +95,12 @@ fields:
         wysiwyg: true
         schema:
           format: html
-      label: content
+      label: Content
     config:
       min: 
       max: 
       labelField: 
-    label: list
+    label: List
   config:
     min: 
     max: 
