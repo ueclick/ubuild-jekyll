@@ -20,6 +20,7 @@ page_sections:
     url: ''
     button_text: ''
   title: ''
+  video_url: ''
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
@@ -47,6 +48,7 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+  video_url: ''
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
@@ -69,12 +71,7 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
-- template: 4-column-footer
-  block: footer-2
-  image: ''
-  col_2: ''
-  col_3: ''
-  col_4: ''
+  video_url: ''
 menu:
   main:
     weight: 2
