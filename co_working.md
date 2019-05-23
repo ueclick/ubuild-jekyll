@@ -5,8 +5,8 @@ date: 2019-05-22T16:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
-  text_color: "#29243D"
-  image_alignment: Left
+  text_color: "#FFFFFF"
+  image_alignment: Right
   background_image: "/uploads/2019/05/23/co-working-screen1-bg.png"
   headline: "<strong>Grow co-working spaces </strong><br>into communities"
   image:
