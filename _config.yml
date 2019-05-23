@@ -3,7 +3,7 @@ title: Coherence
 author: Tuo.huang
 email: tuo.huang@6e-group.com
 description: ''
-baseurl: "/site"
+baseurl: "/coherence-site"
 url: ''
 defaults:
 - scope:
