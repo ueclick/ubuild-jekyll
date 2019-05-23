@@ -9,24 +9,24 @@ header:
       link_text: Home
       title: "Home"
       sub_links: []
-    - link: "/Solutions"
+    - link: "/solutions.html"
       link_text: Solutions
       title: "Solutions"
       sub_links:
-      - link: "/Social_CRM"
+      - link: "/social_crm.html"
         link_text: Social_CRM
         title: "SCRM/Social Commerce"
-      - link: "/Co_working"
+      - link: "/co_working.html"
         link_text: Co_working
         title: "Co-working Management"
-      - link: "/Data_Science"
+      - link: "/data_science.html"
         link_text: Data_Science
         title: "Data Intelligence Algorithm Engine"
-    - link: "/About"
+    - link: "/about.html"
       link_text: About
       title: "About"
       sub_links: []
-    - link: "/Contact_Us"
+    - link: "/contact_us.html"
       link_text: Contact_Us
       title: "Contact Us"
       sub_links: []
