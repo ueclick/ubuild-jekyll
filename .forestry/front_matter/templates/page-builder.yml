@@ -34,6 +34,7 @@ fields:
   - 4-column-banner
   - multiple-column-banner
 pages:
+- data-science.md
 - co-working.md
 - index.md
 - contact_us.md
