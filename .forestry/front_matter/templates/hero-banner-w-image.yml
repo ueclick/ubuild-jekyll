@@ -72,6 +72,34 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: contents
+  type: field_group
+  config: {}
+  fields:
+  - name: sub_title
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: sub title
+  - name: list
+    type: field_group
+    config: {}
+    fields:
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: content
+    label: list
+  label: Contents
 - type: field_group
   name: cta
   label: Call-to-action
@@ -85,31 +113,3 @@ fields:
   - type: text
     name: button_text
     label: Button text
-- name: contents
-  type: field_group
-  config: {}
-  fields:
-  - name: title
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: title
-  - name: lists
-    type: field_group
-    config: {}
-    fields:
-    - name: content
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: content
-    label: lists
-  label: Contents
