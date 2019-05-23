@@ -28,6 +28,16 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- template: full-width-media-element
+  block: media-3
+  background_image: "/uploads/2019/05/23/about-screen-3-bg.jpg"
+  image: "/uploads/2019/05/23/about-screen-3-content.png"
+  caption: ''
+- template: full-width-media-element
+  block: media-3
+  image: "/uploads/2019/05/23/about-screen-4-content.png"
+  background_image: "/uploads/2019/05/23/about-screen-4-bg.jpg"
+  caption: ''
 menu:
   main:
     weight: 3
