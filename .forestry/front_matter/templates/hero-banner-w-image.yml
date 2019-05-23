@@ -13,7 +13,7 @@ fields:
     required: false
     color_format: Hex
   label: text color
-  default: "#57DDB0"
+  default: "#29243D"
 - type: file
   name: background_image
   label: Background Image
