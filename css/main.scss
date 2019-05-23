@@ -195,8 +195,11 @@ h1 span.light {
   background-color: #{$fontGreen} !important;
 }
 
-.sub-list-wrap {
+.content-wrap {
   margin-bottom: 1rem;
+}
+
+.sub-list-wrap {
   margin-left: 1.2rem;
   .sub-list-content {
     //margin: 1rem 0;
