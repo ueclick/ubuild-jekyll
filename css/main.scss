@@ -145,6 +145,12 @@ h1 span.light {
   max-height: 64rem;
   background-color: white;
 
+  .column.text p {
+    margin: 0 !important;
+    line-height: 1.5rem !important;
+    font-size: 1rem;
+  }
+
   .video-bg-wrap {
     position: absolute;
     z-index: 1;
@@ -185,6 +191,14 @@ h1 span.light {
 
 .button.primary {
   background-color: #{$fontGreen} !important;
+}
+
+.sub-list-wrap {
+  margin-bottom: 1rem;
+  margin-left: 1.2rem;
+  .sub-list-content {
+    //margin: 1rem 0;
+  }
 }
 
 .block-header-2 {

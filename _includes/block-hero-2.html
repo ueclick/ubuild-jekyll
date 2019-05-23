@@ -22,7 +22,16 @@
       <div class="column text" style="color: {{ section.text_color }}">
         <h1><span class="light">{{ section.headline }}</span></h1>
         <h2 class="title"><span>{{ section.title }}</span></h2>
-        <p style="color: {{ section.text_color }}">{{ section.content }}</p>
+        {% for content in section.contents %}
+        <p style="color: {{ section.text_color }}">{{ content.sub_title }}</p>
+        {% if content.list.size > 0 %}
+        <ul class="sub-list-wrap">
+          {% for sub_content in content.list %}
+          <li class="sub-list-content">{{ sub_content.content }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% endfor %}
         {% if section.cta and section.cta.enabled == true %}
         <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         {% endif %}
