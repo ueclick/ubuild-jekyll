@@ -101,5 +101,26 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- template: multiple-column-banner
+  block: multiple-feature-column-1
+  background_image: "/uploads/2019/05/23/data-science-screen5-bg.png"
+  columns:
+  - template: feature-column
+    image: "/uploads/2019/05/23/data-science-screen5-icon1.png"
+    title: Data upload
+    contents:
+    - Upload your local data
+    - Link your remote data (In progress)
+  - template: feature-column
+    title: Task management
+    image: "/uploads/2019/05/23/data-science-screen5-icon2.png"
+    contents:
+    - Set new main tasks or sub-tasks.
+    - Data cleaning.
+    - Check and compare outcome dashboard
+  - template: feature-column
+    title: Result Analysis service
+    image: "/uploads/2019/05/23/data-science-screen5-icon3.png"
+    contents: []
 
 ---
