@@ -21,10 +21,7 @@ page_sections:
     button_text: ''
   title: ''
   video_url: ''
-  contents:
-  - sub_title: ''
-    list:
-    - content: ''
+  contents: []
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
