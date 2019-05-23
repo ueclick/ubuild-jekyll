@@ -127,6 +127,39 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- template: multiple-column-banner
+  block: multiple-feature-column-1
+  background_image: "/uploads/2019/05/23/social-screen5-bg.png"
+  columns:
+  - template: feature-column
+    title: Omni-Channels Integration
+    image: "/uploads/2019/05/23/social-screen5-icon1.png"
+    contents:
+    - Member registration and source tracking
+    - WeChat official account integration
+    - Clienteling platform
+    - Store monitoring solution
+  - template: feature-column
+    title: Social Commerce
+    image: "/uploads/2019/05/23/social-screen5-icon2.png"
+    contents:
+    - Branded social commerce platform
+    - Promotion mechanism
+    - Customer service module
+  - template: feature-column
+    title: Data Analysis
+    image: "/uploads/2019/05/23/social-screen5-icon3.png"
+    contents:
+    - Performance dashboard
+    - Machine learning data processing
+  - template: feature-column
+    title: Marketing & Operations Support
+    image: "/uploads/2019/05/23/social-screen5-icon4.png"
+    contents:
+    - Automated marketing tool
+    - S-CRM campaign integration
+    - S-CRM strategy and operations
+    - Social commerce strategy and operations
 menu:
   main:
     weight: 2
