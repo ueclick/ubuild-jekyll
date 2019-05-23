@@ -20,6 +20,7 @@ page_sections:
   text_color: "#57DDB0"
   title: ''
   video_url: http://display.6edigital.com/videos/video.mp4
+  contents: []
 - template: hero-banner-w-image
   block: hero-2
   image_alignment: Left
@@ -38,6 +39,7 @@ page_sections:
   text_color: "#29243D"
   title: ''
   video_url: ''
+  contents: []
 - template: multiple-column-banner
   block: multiple-feature-column-1
   columns:
@@ -69,8 +71,8 @@ page_sections:
   background_image: "/uploads/2019/05/21/home-screen3-bg.png"
 - template: full-width-media-element
   block: media-3
-  image: "/uploads/2019/05/22/screen4-kv.png"
-  background_image: "/uploads/2019/05/22/home-screen4-bg.png"
+  image: "/uploads/2019/05/23/home-screen4-kv.png"
+  background_image: "/uploads/2019/05/23/home-screen4-bg.png"
   caption: ''
 menu:
   main:
