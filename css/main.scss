@@ -14,6 +14,8 @@ h1 span.light {
 }
 
 .block-media-1 {
+  display: flex;
+  align-items: center;
   background-repeat:no-repeat;
   background-size: cover;
   min-height:100vh;
