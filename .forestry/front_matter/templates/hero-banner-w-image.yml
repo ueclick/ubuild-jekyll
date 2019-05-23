@@ -73,8 +73,7 @@ fields:
     schema:
       format: html
 - name: contents
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: sub_title
     type: textarea
@@ -102,6 +101,10 @@ fields:
       max: 
       labelField: 
     label: list
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Contents
 - type: field_group
   name: cta
