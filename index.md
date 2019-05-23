@@ -55,19 +55,31 @@ page_sections:
     title: Experience Design
     image: "/uploads/2019/05/21/screen3-icon2.png"
     contents:
-    - Experience Design
     - Service Design Blueprint
+    - User Journey Mapping
+    - Lean UX (Rapid Prototyping and    User Testing)
+    - Information Architecture
+    - User Flow Design
+    - Wireframe Design
+    - Interface and Visual Design
   - template: feature-column
     title: Engineering
     image: "/uploads/2019/05/21/screen3-icon3.png"
     contents:
     - Custom Software Development
-    - Engineering
+    - |-
+      Technical Platform Development
+         and Integration
+    - Wechat/Ali Platform Integration
+    - Native App Development
   - template: feature-column
     title: Data Science
     image: "/uploads/2019/05/21/screen3-icon4.png"
     contents:
-    - Qualitative Research
+    - Unsupervised algorithm engineering
+    - Data processing and report generation
+    - Technology Strategy & Roadmapping
+    - Outcome Integration with business implementation
   background_image: "/uploads/2019/05/21/home-screen3-bg.png"
 - template: full-width-media-element
   block: media-3
