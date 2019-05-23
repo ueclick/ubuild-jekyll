@@ -54,13 +54,12 @@ page_sections:
   image_alignment: Left
   text_color: "#29243D"
   background_image: "/uploads/2019/05/23/social-screen3-bg.png"
-  content: '<strong>Social conversion: </strong><br><span class="s1">●</span> Use
-    social communication buzz to generate sales in WeChat-based social commerce platform
-    or pop-up stores.<br><br><strong>Discussion forums: </strong>Set up internal forums
-    to enhance business and leisure communications. This creates a sense of belonging
-    within the community.<br>Directory and profile: Members can search other companies
-    or members in our directories easily. Business information is also disclosed through
-    updated profile page.'
+  content: "<strong>Social conversion: </strong><br>Use social communication buzz
+    to generate sales in WeChat-based social commerce platform or pop-up stores.<br><br><strong>Discussion
+    forums: </strong>Set up internal forums to enhance business and leisure communications.
+    This creates a sense of belonging within the community.<br>Directory and profile:
+    Members can search other companies or members in our directories easily. Business
+    information is also disclosed through updated profile page."
   title: Improved sales touch-points
   image:
     image: "/uploads/2019/05/23/social-screen3-kv.png"
