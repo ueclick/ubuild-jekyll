@@ -35,6 +35,6 @@ fields:
   - multiple-column-banner
 pages:
 - index.md
-- contact-us.md
+- contact_us.md
 - about.md
 - social_crm.md
