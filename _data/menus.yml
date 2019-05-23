@@ -26,7 +26,7 @@ header:
       link_text: About
       title: "About"
       sub_links: []
-    - link: "/Contact Us"
-      link_text: Contact Us
+    - link: "/Contact_Us"
+      link_text: Contact_Us
       title: "Contact Us"
       sub_links: []
