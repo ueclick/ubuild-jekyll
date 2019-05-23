@@ -160,6 +160,24 @@ page_sections:
     - S-CRM campaign integration
     - S-CRM strategy and operations
     - Social commerce strategy and operations
+- template: hero-banner-w-image
+  block: hero-2
+  text_color: "#29243D"
+  image_alignment: Right
+  background_image: "/uploads/2019/05/23/social-screen6-bg.png"
+  image:
+    image: ''
+    alt_text: ''
+    enabled: false
+  video_url: ''
+  headline: "<strong>SpaceNK</strong><br>Omni-channel S-CRM with<br>campaign integration
+    ability"
+  title: ''
+  contents: []
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 menu:
   main:
     weight: 2
