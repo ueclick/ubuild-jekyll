@@ -53,8 +53,8 @@ page_sections:
   contents:
   - sub_title: "<strong>Omni-channel integrations:</strong> "
     list:
-    - content: Based on WeChat ecosystem for acquisition, engagement, conversion and
-        sharing
+    - content: "<strong>Based</strong> on WeChat ecosystem for acquisition, engagement,
+        conversion and sharing"
     - content: Consider in-store consumer and sales data. Engage and enhance offline
         experience.
     - content: All-rounded social CRM strategy
