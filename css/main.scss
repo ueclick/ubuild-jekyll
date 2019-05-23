@@ -40,15 +40,16 @@ h1 span.light {
 }
 
 .block-multiple-column-1 {
-  --bg:#ffcb3c;
-  --text:#fff;
+  --bg: white;
+  --text: #fff;
   display: flex;
   -ms-flex-direction:column;
   flex-direction:column;
   -ms-flex-pack:center;
   justify-content:center;
   align-items: center;
-  min-height:100vh;
+  height: 100vh;
+  max-height: 64rem;
   background-color:var(--bg);
   color:var(--text);
   background-repeat:no-repeat;
@@ -139,6 +140,10 @@ h1 span.light {
 .block-hero-2 {
   position: relative;
   background-size: cover !important;
+  min-height: unset;
+  height: 100vh;
+  max-height: 64rem;
+  background-color: white;
 
   .video-bg-wrap {
     position: absolute;
@@ -177,49 +182,64 @@ h1 span.light {
   background-color: #{$fontGreen} !important;
 }
 
-.block-header-2--logo {
-  img {
-    height: 18px;
+.block-header-2 {
+  position: relative;
+  z-index: 99;
+  .block-header-2--logo {
+    img {
+      height: 18px;
+    }
   }
-}
 
-.block-header-2 .nav-item {
-  margin: 0 !important;
-  padding: 0 0.5rem;
-}
+  .nav-item {
+    margin: 0 !important;
+    padding: 0 0.5rem;
+  }
 
-.block-header-2--nav {
-
-  .nav-items {
-    li {
-      position: relative;
-      a.hover {
-        pointer-events: none;
-      }
-    }
-
-    li:hover .sub-nav-items {
-      height: auto;
-    }
-
-    .sub-nav-items {
-      position: absolute;
-      overflow: hidden;
-      left: 0;
-      width: 150%;
-      height: 0;
-      padding: 4px;
-      box-sizing: border-box;
-      background-color: rgba(255, 255, 255, 0.9);
-
+  .block-header-2--nav {
+    .nav-items {
       li {
-        margin: 4px 4px;
-        list-style-type:none;
-        text-align: left;
-        a {
-          color: #333 !important;
-          &:hover {
-            color: #{$fontGreen} !important;
+        position: relative;
+        a.hover {
+          pointer-events: none;
+        }
+      }
+
+      li:hover .sub-nav-items {
+        max-height: 100px;
+        -webkit-transition: max-height 0.25s ease-in;
+        -o-transition: max-height 0.25s ease-in;
+        transition: max-height 0.25s ease-in;
+      }
+
+      .sub-nav-items {
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        width: 150%;
+        max-height: 0;
+        //margin-top: 0.5rem;
+        -webkit-transition: max-height 0.25s ease-out;
+        -o-transition: max-height 0.25s ease-out;
+        transition: max-height 0.25s ease-out;
+        //padding: 4px;
+        //box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.9);
+
+        li {
+          margin: 0.5rem;
+          list-style-type:none;
+          text-align: left;
+          &.active {
+            a {
+              color: #{$fontGreen} !important;
+            }
+          }
+          a {
+            color: #333 !important;
+            &:hover {
+              color: #{$fontGreen} !important;
+            }
           }
         }
       }

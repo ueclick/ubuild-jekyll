@@ -7,19 +7,26 @@ header:
   menus:
     - link: "/"
       link_text: Home
+      title: "Home"
       sub_links: []
     - link: "/Solutions"
       link_text: Solutions
+      title: "Solutions"
       sub_links:
       - link: "/Social_CRM"
         link_text: Social_CRM
+        title: "Social CRM"
       - link: "/Co_working"
         link_text: Co_working
+        title: "Co working"
       - link: "/Data_Science"
         link_text: Data_Science
+        title: "Data Science"
     - link: "/About"
       link_text: About
+      title: "About"
       sub_links: []
     - link: "/Contact Us"
       link_text: Contact Us
+      title: "Contact Us"
       sub_links: []
