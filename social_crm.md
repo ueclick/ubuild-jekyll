@@ -90,10 +90,7 @@ page_sections:
     url: ''
     button_text: ''
   video_url: ''
-  contents:
-  - sub_title: ''
-    list:
-    - content: ''
+  contents: []
 menu:
   main:
     weight: 2
