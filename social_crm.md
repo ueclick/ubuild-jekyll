@@ -178,6 +178,39 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- template: hero-banner-w-image
+  block: hero-2
+  text_color: "#29243D"
+  image_alignment: Right
+  background_image: "/uploads/2019/05/23/social-screen7-bg.png"
+  contents:
+  - sub_title: "<strong>All member data in one database</strong>"
+    list:
+    - content: Consolidate member and sales data from boutiques, official e-commerce
+        site and campaign pop-up stores.
+    - content: WeChat engagement data and online campaign participations are taken
+        into account to complete member personas.
+  - sub_title: "<strong>Modular campaign mechanisms</strong>"
+    list:
+    - content: Modular backend mechanisms such as sampling, pop-up stores, member-get-member
+        to support flexible campaign creative design
+  - sub_title: "<strong>Customised dashboards</strong>:"
+    list:
+    - content: Standard dashboard to show member statistics and campaign engagements
+    - content: Extensive data visualisation is developed according to SpaceNK’s business
+        requirements to show data such as new member percentage, sales conversion
+        during campaigns, sales conversion by boutique.
+  image:
+    image: ''
+    alt_text: ''
+    enabled: false
+  video_url: ''
+  headline: ''
+  title: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 menu:
   main:
     weight: 2
