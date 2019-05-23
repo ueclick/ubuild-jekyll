@@ -86,8 +86,7 @@ fields:
         format: html
     label: sub title
   - name: list
-    type: field_group
-    config: {}
+    type: field_group_list
     fields:
     - name: content
       type: textarea
@@ -98,6 +97,10 @@ fields:
         schema:
           format: html
       label: content
+    config:
+      min: 
+      max: 
+      labelField: 
     label: list
   label: Contents
 - type: field_group
