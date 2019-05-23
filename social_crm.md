@@ -105,7 +105,7 @@ page_sections:
     - content: Review and design the whole customer journey of all touch-points
 - template: hero-banner-w-image
   block: hero-2
-  text_color: "#57DDB0"
+  text_color: "#29243D"
   image_alignment: Left
   background_image: "/uploads/2019/05/23/social-screen4-bg.png"
   image:
