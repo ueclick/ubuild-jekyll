@@ -7,9 +7,30 @@ fields:
   label: block
   name: block
   default: hero-2
+- name: text_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: text color
+  default: "#57DDB0"
 - type: file
   name: background_image
   label: Background Image
+- name: image_alignment
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: image_alignment
 - type: field_group
   name: image
   label: Image
@@ -23,6 +44,11 @@ fields:
   - name: enabled
     type: boolean
     label: enabled
+- name: video_url
+  type: text
+  config:
+    required: false
+  label: video url
 - type: textarea
   name: headline
   label: Headline
@@ -59,29 +85,31 @@ fields:
   - type: text
     name: button_text
     label: Button text
-- name: image_alignment
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Left
-    - Right
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: image_alignment
-- name: text_color
-  type: color
-  config:
-    required: false
-    color_format: Hex
-  label: text color
-  default: "#57DDB0"
-- name: video_url
-  type: text
-  config:
-    required: false
-  label: video url
+- name: contents
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: title
+  - name: lists
+    type: field_group
+    config: {}
+    fields:
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: content
+    label: lists
+  label: Contents
