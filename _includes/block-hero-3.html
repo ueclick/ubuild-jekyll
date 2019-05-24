@@ -21,6 +21,7 @@
         <h2 class="title"><span>{{ section.title }}</span></h2>
         {% endif %}
         {% for content in section.contents %}
+        <div class="content-wrap">
         <p style="color: {{ section.text_color }}">{{ content.sub_title }}</p>
         {% if content.list.size > 0 %}
         <ul class="sub-list-wrap">
@@ -29,6 +30,7 @@
           {% endfor %}
         </ul>
         {% endif %}
+        </div>
         {% endfor %}
         {% if section.cta and section.cta.enabled == true %}
         <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
