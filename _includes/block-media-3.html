@@ -1,11 +1,12 @@
-<section class="block block-media-1"
+<section class="block block-media-1 progressive__bg progressive--not-loaded"
        {% if section.background_image %}
        data-progressive="{{ section.background_image | relative_url }}"
+       data-progressive-sm="{{ section.background_image | prepend: 'medium' | relative_url }}"
        style="background-image: url('{{ section.background_image | prepend: 'thumb' | relative_url }}')"
        {% endif %}>
   <div class="container">
     <figure>
-      <img src="{{ section.image | relative_url }}" alt="{{ section.caption }}">
+      <img class="progressive__img progressive--not-loaded" data-progressive="{{ section.image | relative_url }}" data-progressive-sm="{{ section.image | prepend: 'medium' | relative_url }}" src="{{ section.image | prepend: 'thumb' | relative_url }}" alt="{{ section.caption }}">
       {% if section.caption %}
       <figcaption>{{ section.caption }}</figcaption>
       {% endif %}
