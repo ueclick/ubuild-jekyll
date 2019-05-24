@@ -80,11 +80,11 @@ page_sections:
     - Data processing and report generation
     - Technology Strategy & Roadmapping
     - Outcome Integration with business implementation
-  background_image: "/uploads/2019/05/21/home-screen3-bg.png"
+  background_image: "/uploads/2019/05/21/home-screen3-bg.jpg"
 - template: full-width-media-element
   block: media-3
   image: "/uploads/2019/05/23/home-screen4-kv.png"
-  background_image: "/uploads/2019/05/23/home-screen4-bg.png"
+  background_image: "/uploads/2019/05/23/home-screen4-bg.jpg"
   caption: ''
 menu:
   main:

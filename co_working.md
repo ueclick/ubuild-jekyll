@@ -7,7 +7,7 @@ page_sections:
   block: hero-2
   text_color: "#FFFFFF"
   image_alignment: Right
-  background_image: "/uploads/2019/05/23/co-working-screen1-bg.png"
+  background_image: "/uploads/2019/05/23/co-working-screen1-bg.jpg"
   headline: "<strong>Grow co-working spaces </strong><br>into communities"
   image:
     image: ''
@@ -24,7 +24,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Left
-  background_image: "/uploads/2019/05/23/social-screen3-bg.png"
+  background_image: "/uploads/2019/05/23/social-screen3-bg.jpg"
   image:
     image: "/uploads/2019/05/23/co-working-screen2-kv.png"
     enabled: true
@@ -69,7 +69,7 @@ page_sections:
     - content: Flexible member management across locations and countries
     - content: Language and function localisation is available for different countries.
     sub_title: ''
-  background_image: "/uploads/2019/05/22/social-screen2-bg.png"
+  background_image: "/uploads/2019/05/22/social-screen2-bg.jpg"
   video_url: ''
   headline: ''
   cta:
@@ -80,7 +80,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Left
-  background_image: "/uploads/2019/05/23/co-working-screen4-bg.png"
+  background_image: "/uploads/2019/05/23/co-working-screen4-bg.jpg"
   image:
     image: "/uploads/2019/05/23/co-working-screen4-kv.png"
     enabled: true
@@ -109,7 +109,7 @@ page_sections:
   block: hero-2
   text_color: "#FFFFFF"
   image_alignment: Right
-  background_image: "/uploads/2019/05/23/co-working-screen5-bg.png"
+  background_image: "/uploads/2019/05/23/co-working-screen5-bg.jpg"
   title: Dedicated project team all way through
   contents:
   - sub_title: ''
@@ -135,7 +135,7 @@ page_sections:
     button_text: ''
 - template: multiple-column-banner
   block: multiple-feature-column-1
-  background_image: "/uploads/2019/05/23/co-working-screen6-bg.png"
+  background_image: "/uploads/2019/05/23/co-working-screen6-bg.jpg"
   columns:
   - template: feature-column
     image: "/uploads/2019/05/23/co-working-screen6-icon1.png"
@@ -169,7 +169,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Left
-  background_image: "/uploads/2019/05/23/co-working-screen7-bg.png"
+  background_image: "/uploads/2019/05/23/co-working-screen7-bg.jpg"
   headline: "<strong>Case Study:<br>OnePiece Work</strong><br>Build a community"
   image:
     image: ''
@@ -186,7 +186,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Left
-  background_image: "/uploads/2019/05/23/co-working-screen8-bg.png"
+  background_image: "/uploads/2019/05/23/co-working-screen8-bg.jpg"
   contents:
   - sub_title: "<strong>Cross-border location management</strong>:"
     list:

@@ -7,7 +7,7 @@ page_sections:
   block: hero-2
   image_alignment: Right
   text_color: "#29243D"
-  background_image: "/uploads/2019/05/22/social-screen1-bg.png"
+  background_image: "/uploads/2019/05/22/social-screen1-bg.jpg"
   image:
     image: ''
     alt_text: ''
@@ -26,7 +26,7 @@ page_sections:
   block: hero-2
   image_alignment: Left
   text_color: "#29243D"
-  background_image: "/uploads/2019/05/22/social-screen2-bg.png"
+  background_image: "/uploads/2019/05/22/social-screen2-bg.jpg"
   title: All-in-one digital platform for <br>small-to-medium brands?
   content: '<strong>Omni-channel integrations:</strong> Consider online and office
     sales and <br>marketing channels during the whole S-CRM cycle of acquisition,
@@ -70,7 +70,7 @@ page_sections:
   block: hero-2
   image_alignment: Right
   text_color: "#29243D"
-  background_image: "/uploads/2019/05/23/social-screen3-bg.png"
+  background_image: "/uploads/2019/05/23/social-screen3-bg.jpg"
   content: "<strong>Social conversion: </strong><br>Use social communication buzz
     to generate sales in WeChat-based social commerce platform or pop-up stores.<br><br><strong>Discussion
     forums: </strong>Set up internal forums to enhance business and leisure communications.
@@ -107,7 +107,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Left
-  background_image: "/uploads/2019/05/23/social-screen4-bg.png"
+  background_image: "/uploads/2019/05/23/social-screen4-bg.jpg"
   image:
     image: "/uploads/2019/05/23/social-screen4-kv.png"
     enabled: true
@@ -129,7 +129,7 @@ page_sections:
     button_text: ''
 - template: multiple-column-banner
   block: multiple-feature-column-1
-  background_image: "/uploads/2019/05/23/social-screen5-bg.png"
+  background_image: "/uploads/2019/05/23/social-screen5-bg.jpg"
   columns:
   - template: feature-column
     title: Omni-Channels Integration
@@ -164,7 +164,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Right
-  background_image: "/uploads/2019/05/23/social-screen6-bg.png"
+  background_image: "/uploads/2019/05/23/social-screen6-bg.jpg"
   image:
     image: ''
     alt_text: ''
@@ -182,7 +182,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Right
-  background_image: "/uploads/2019/05/23/social-screen7-bg.png"
+  background_image: "/uploads/2019/05/23/social-screen7-bg.jpg"
   contents:
   - sub_title: "<strong>All member data in one database</strong>"
     list:

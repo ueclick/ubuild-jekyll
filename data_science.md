@@ -7,7 +7,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Right
-  background_image: "/uploads/2019/05/23/data-science-screen1-bg.png"
+  background_image: "/uploads/2019/05/23/data-science-screen1-bg.jpg"
   image:
     image: ''
     alt_text: ''
@@ -25,7 +25,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Left
-  background_image: "/uploads/2019/05/22/social-screen2-bg.png"
+  background_image: "/uploads/2019/05/22/social-screen2-bg.jpg"
   image:
     image: "/uploads/2019/05/23/data-science-screen2-kv.png"
     enabled: true
@@ -49,7 +49,7 @@ page_sections:
   block: hero-2
   text_color: "#29243D"
   image_alignment: Right
-  background_image: "/uploads/2019/05/23/social-screen3-bg.png"
+  background_image: "/uploads/2019/05/23/social-screen3-bg.jpg"
   image:
     image: "/uploads/2019/05/23/data-science-screen3-kv.png"
     enabled: true
@@ -76,7 +76,7 @@ page_sections:
   text_color: "#29243D"
   image_alignment: Left
   title: Free and safe to use
-  background_image: "/uploads/2019/05/23/data-science-screen4-bg.png"
+  background_image: "/uploads/2019/05/23/data-science-screen4-bg.jpg"
   image:
     image: "/uploads/2019/05/23/data-science-screen4-kv.png"
     enabled: true
@@ -103,7 +103,7 @@ page_sections:
     button_text: ''
 - template: multiple-column-banner
   block: multiple-feature-column-1
-  background_image: "/uploads/2019/05/23/data-science-screen5-bg.png"
+  background_image: "/uploads/2019/05/23/data-science-screen5-bg.jpg"
   columns:
   - template: feature-column
     image: "/uploads/2019/05/23/data-science-screen5-icon1.png"
