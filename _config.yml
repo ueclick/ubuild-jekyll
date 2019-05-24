@@ -4,7 +4,7 @@ author: Tuo.huang
 email: tuo.huang@6e-group.com
 description: ''
 baseurl: "/"
-url: ''
+url: https://www.coherencedigital.com
 defaults:
 - scope:
     path: ''
