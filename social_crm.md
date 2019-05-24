@@ -12,7 +12,7 @@ page_sections:
     image: ''
     alt_text: ''
     enabled: false
-  headline: "<strong>Data-driven social-CRM<br>system</strong> to enhance<br>customer
+  headline: "<strong>Data-driven social CRM<br>system</strong> to enhance<br>customer
     experience"
   content: ''
   cta:
@@ -27,7 +27,7 @@ page_sections:
   image_alignment: Left
   text_color: "#29243D"
   background_image: "/uploads/2019/05/22/social-screen2-bg.jpg"
-  title: All-in-one digital platform for <br>small-to-medium brands?
+  title: All-in-one digital platform
   content: '<strong>Omni-channel integrations:</strong> Consider online and office
     sales and <br>marketing channels during the whole S-CRM cycle of acquisition,
     <br>engagement, conversion and sharing to draw up an all-rounded S-CRM strategy.<br><br><strong>360°
@@ -51,8 +51,8 @@ page_sections:
   contents:
   - sub_title: "<strong>Omni-channel integrations:</strong> "
     list:
-    - content: "<strong>Based</strong> on WeChat ecosystem for acquisition, engagement,
-        conversion and sharing"
+    - content: Based on WeChat ecosystem for acquisition, engagement, conversion and
+        sharing
     - content: Consider in-store consumer and sales data. Engage and enhance offline
         experience.
     - content: All-rounded social CRM strategy
@@ -170,7 +170,7 @@ page_sections:
     alt_text: ''
     enabled: false
   video_url: ''
-  headline: "<strong>Case Study:<br>SpaceNK</strong><br>Omni-channel S-CRM with<br>campaign
+  headline: "<strong>Case Study:<br>SpaceNK</strong><br>Omni-channel S CRM with<br>campaign
     integration ability"
   title: ''
   contents: []
