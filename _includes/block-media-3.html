@@ -1,6 +1,7 @@
 <section class="block block-media-1"
        {% if section.background_image %}
-       style="background-image: url('{{ section.background_image | relative_url }}')"
+       data-progressive="{{ section.background_image | relative_url }}"
+       style="background-image: url('{{ section.background_image | prepend: 'thumb' | relative_url }}')"
        {% endif %}>
   <div class="container">
     <figure>

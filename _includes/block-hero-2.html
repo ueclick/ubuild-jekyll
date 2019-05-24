@@ -1,9 +1,10 @@
 {% if section.image_alignment and section.image_alignment == "Right" %}
 {% include block-hero-3.html %}
 {% else %}
-<section class="block block-hero-2"
+<section class="block block-hero-2 progressive__bg progressive--not-loaded"
          {% if section.background_image %}
-         style="background-image: url('{{ section.background_image | relative_url }}')"
+         data-progressive="{{ section.background_image | relative_url }}"
+         style="background-image: url('{{ section.background_image | prepend: 'thumb' | relative_url }}')"
          {% endif %}>
   {% if section.video_url != '' %}
   <div class="video-bg-wrap">
@@ -16,7 +17,7 @@
     <div class="columns">
       <div class="column media">
         {% if section.image.enabled %}
-        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}">
+        <img class="progressive__img progressive--not-loaded" data-progressive="{{ section.image.image | relative_url }}" src="{{ section.image.image | prepend: 'thumb' | relative_url }}" alt="{{ section.image.alt_text }}">
         {% endif %}
       </div>
       <div class="column text" style="color: {{ section.text_color }}">
