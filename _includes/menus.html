@@ -1,9 +1,36 @@
+<div class="header-overlay" id="submenu-overlay">
+  <div class="header-btn-close" id="header-btn-close" style="display: block;"></div>
+  <div class="container">
+    <ul>
+      {% for nav_item in site.data.menus.header.menus %}
+      {% assign isActive = false %}
+      {% if page.title == nav_item.link_text %}
+      {% assign isActive = true %}
+      {% endif %}
+      {% for item in nav_item.sub_links %}
+      {% if page.title == item.link_text %}
+      {% assign isActive = true %}
+      {% break %}
+      {% endif %}
+      {% endfor %}
+      {% if nav_item.title != "Solutions" %}
+      <li class="nav-item {% if isActive %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %} {% if nav_item.title == "Contact Us" %}typeform-share{% endif %} " {% if nav_item.title == "Contact Us" %}data-mode="popup" target="_blank"{% endif %} href="{{ nav_item.link }}">{{ nav_item.title }}</a>
+      </li>
+      {% endif %}
+      {% for sub_item in nav_item.sub_links %}
+      <li class="nav-item {% if page.title == sub_item.link_text %}active{% endif %}"><a href="{{ sub_item.link }}">{{ sub_item.title }}</a></li>
+      {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 <header class="block block-header-2">
   <div class="block-header-2--logo">
     <a href="{{ '/' | relative_url }}">
       <img src="{{ site.data.menus.header.logo | relative_url }}" alt="{{ site.title }}">
     </a>
   </div>
+  <div class="header-btn-dropdown overlay-open" data-overlay-id="submenu-overlay"> <span></span> <span></span> <span></span> </div>
   <nav class="block-header-2--nav">
     <ul class="nav-items">
       {% for nav_item in site.data.menus.header.menus %}
