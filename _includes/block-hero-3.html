@@ -34,11 +34,12 @@
         <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         {% endif %}
       </div>
-      {% if section.image.enabled %}
+
       <div class="column media">
+        {% if section.image.enabled %}
         <img class="progressive__img progressive--not-loaded" data-progressive="{{ section.image.image | relative_url }}" src="{{ section.image.image | prepend: 'thumb' | relative_url }}" alt="{{ section.image.alt_text }}">
+        {% endif %}
       </div>
-      {% endif %}
     </div>
   </div>
 </section>

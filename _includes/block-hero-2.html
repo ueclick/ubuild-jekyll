@@ -16,11 +16,11 @@
   {% endif %}
   <div class="container">
     <div class="columns">
-      {% if section.image.enabled %}
       <div class="column media">
+        {% if section.image.enabled %}
         <img class="progressive__img progressive--not-loaded" data-progressive="{{ section.image.image | relative_url }}" src="{{ section.image.image | prepend: 'thumb' | relative_url }}" alt="{{ section.image.alt_text }}">
+        {% endif %}
       </div>
-      {% endif %}
       <div class="column text" style="color: {{ section.text_color }}">
         {% if section.headline != '' %}
         <h1><span class="light">{{ section.headline }}</span></h1>
