@@ -1,13 +1,29 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
+# only Main files contain this front matter, not partials
 ---
 
 $fontGreen: "#57DDB0";
 $fontDark: "#29243D";
 
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('/fonts/Montserrat-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('/fonts/Montserrat-Light.ttf')
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('/fonts/Montserrat-Medium.ttf');
+}
+
 strong {
-  font-weight: 600;
+  font-family: 'Montserrat-Bold', sans-serif;
+  //font-weight: 600;
 }
 
 h1 span.light {
@@ -16,6 +32,7 @@ h1 span.light {
 
 body {
   overflow-x: hidden;
+  font-family: 'Montserrat-Light', sans-serif;
 }
 
 .block-media-1 {
