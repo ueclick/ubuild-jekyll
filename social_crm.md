@@ -118,7 +118,7 @@ page_sections:
     list:
     - content: Data accumulation is the foundation of knowing your customers. Next
         step is to digest and generate insights. Our machine learning capability helps
-        to process large amount of data and create customer segmentation. Go to&lt;a
+        to process large amount of data and create customer segmentation. Go to &lt;a
         href="/data_science.html" class="link-a" target="_blank"&gt;Data Processing
         Algorithm Engine&lt;/a&gt; to read more.
   video_url: ''
