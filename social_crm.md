@@ -12,7 +12,7 @@ page_sections:
     image: ''
     alt_text: ''
     enabled: false
-  headline: "<strong>Data-driven social-CRM<br>system</strong> to enhance<br>customer
+  headline: "<strong>Data-driven social CRM<br>system</strong> to enhance<br>customer
     experience"
   content: ''
   cta:
