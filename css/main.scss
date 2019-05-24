@@ -57,6 +57,10 @@ body {
   }
 }
 
+.block-hero-2 .column.media {
+  margin: 0 !important;
+}
+
 .block-multiple-column-1 {
   --bg: white;
   --text: #fff;
@@ -162,6 +166,9 @@ body {
   position: relative;
   background-size: cover !important;
   background-color: white;
+  .column.text {
+    text-align: left;
+  }
 
   .column.text p {
     margin: 0 !important;
