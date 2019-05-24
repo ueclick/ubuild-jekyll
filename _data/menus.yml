@@ -1,9 +1,6 @@
 ---
 header:
   logo: "/uploads/2019/05/21/nav-logo.png"
-  cta:
-    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    button_text: Demo request
   menus:
     - link: "/"
       link_text: Home

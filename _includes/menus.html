@@ -26,6 +26,8 @@
       </li>
       {% endfor %}
     </ul>
+    {% if site.data.menus.header.cta %}
     <a class="button primary small block-header-2--cta" href="{{ site.data.menus.header.cta.url }}">{{ site.data.menus.header.cta.button_text }}</a>
+    {% endif %}
   </nav>
 </header>
