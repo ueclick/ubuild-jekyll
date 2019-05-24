@@ -170,7 +170,7 @@ page_sections:
   text_color: "#29243D"
   image_alignment: Left
   background_image: "/uploads/2019/05/23/co-working-screen7-bg.png"
-  headline: "<strong>OnePiece Work</strong><br>Build a community"
+  headline: "<strong>Case Study:<br>OnePiece Work</strong><br>Build a community"
   image:
     image: ''
     alt_text: ''
