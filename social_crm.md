@@ -170,8 +170,8 @@ page_sections:
     alt_text: ''
     enabled: false
   video_url: ''
-  headline: "<strong>SpaceNK</strong><br>Omni-channel S-CRM with<br>campaign integration
-    ability"
+  headline: "<strong>Case Study:<br>SpaceNK</strong><br>Omni-channel S-CRM with<br>campaign
+    integration ability"
   title: ''
   contents: []
   cta:
