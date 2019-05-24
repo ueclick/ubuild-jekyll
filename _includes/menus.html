@@ -14,13 +14,18 @@
       {% endif %}
       {% endfor %}
       {% if nav_item.title != "Solutions" %}
-      <li class="nav-item {% if isActive %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %} {% if nav_item.title == "Contact Us" %}typeform-share{% endif %} " {% if nav_item.title == "Contact Us" %}data-mode="popup" target="_blank"{% endif %} href="{{ nav_item.link }}">{{ nav_item.title }}</a>
+      <li class="nav-item {% if isActive %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %}" href="{{ nav_item.link }}">{{ nav_item.title }}</a>
       </li>
       {% endif %}
       {% for sub_item in nav_item.sub_links %}
       <li class="nav-item {% if page.title == sub_item.link_text %}active{% endif %}"><a href="{{ sub_item.link }}">{{ sub_item.title }}</a></li>
       {% endfor %}
       {% endfor %}
+      {% if site.data.menus.header.cta %}
+      <li class="nav-item">
+        <a class="typeform-share button primary large block-header-2--cta" style="margin: 0; font-size: 1rem" href="{{ site.data.menus.header.cta.url }}" data-mode="popup" target="_blank">{{ site.data.menus.header.cta.button_text }}</a>
+      </li>
+      {% endif %}
     </ul>
   </div>
 </div>
@@ -44,7 +49,7 @@
         {% break %}
         {% endif %}
       {% endfor %}
-      <li class="nav-item {% if isActive %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %} {% if nav_item.title == "Contact Us" %}typeform-share{% endif %} " {% if nav_item.title == "Contact Us" %}data-mode="popup" target="_blank"{% endif %} href="{{ nav_item.link }}">{{ nav_item.title }}</a>
+      <li class="nav-item {% if isActive %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %}" href="{{ nav_item.link }}">{{ nav_item.title }}</a>
         <ul class="sub-nav-items">
           {% for sub_item in nav_item.sub_links %}
             <li class="sub-nav-item {% if page.title == sub_item.link_text %}active{% endif %}"><a href="{{ sub_item.link }}">{{ sub_item.title }}</a></li>
@@ -54,7 +59,7 @@
       {% endfor %}
     </ul>
     {% if site.data.menus.header.cta %}
-    <a class="button primary small block-header-2--cta" href="{{ site.data.menus.header.cta.url }}">{{ site.data.menus.header.cta.button_text }}</a>
+    <a class="typeform-share button primary small block-header-2--cta" href="{{ site.data.menus.header.cta.url }}" data-mode="popup" target="_blank">{{ site.data.menus.header.cta.button_text }}</a>
     {% endif %}
   </nav>
 </header>

@@ -1,6 +1,9 @@
 ---
 header:
   logo: "/uploads/2019/05/21/nav-logo.png"
+  cta:
+      url: https://evadeng.typeform.com/to/rlwOmD
+      button_text: Contact Us
   menus:
     - link: "/"
       link_text: Home
@@ -22,8 +25,4 @@ header:
     - link: "/about.html"
       link_text: About
       title: "About"
-      sub_links: []
-    - link: "https://evadeng.typeform.com/to/rlwOmD"
-      link_text: Contact_Us
-      title: "Contact Us"
       sub_links: []
