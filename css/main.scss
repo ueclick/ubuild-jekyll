@@ -317,7 +317,7 @@ body {
     align-items: center;
     .nav-items {
       li.nav-item {
-        font-size: 1rem;
+        font-size: 1.25rem;
         position: relative;
         a.hover {
           pointer-events: none;
@@ -335,8 +335,9 @@ body {
         position: absolute;
         overflow: hidden;
         left: 0;
-        width: 320%;
+        width: 300%;
         max-height: 0;
+        font-size: 1rem;
         //margin-top: 0.5rem;
         -webkit-transition: max-height 0.25s ease-out;
         -o-transition: max-height 0.25s ease-out;
