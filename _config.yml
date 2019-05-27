@@ -2,7 +2,7 @@
 title: Coherence
 author: Tuo.huang
 email: tuo.huang@6e-group.com
-description: Coherence
+description: 'Coherence '
 baseurl: "/"
 url: https://www.coherencedigital.com
 defaults:
@@ -16,7 +16,5 @@ gems:
 - jekyll-menus
 plugins:
 - jekyll-menus
-
-# Serving
 host: 0.0.0.0
 port: 4000
