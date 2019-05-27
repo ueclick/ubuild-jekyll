@@ -22,7 +22,7 @@ header:
       - link: "/data_science.html"
         link_text: Data_Science
         title: "Data Intelligence Algorithm Engine"
-    - link: "/about.html"
-      link_text: About
+    - link: "/team.html"
+      link_text: Team
       title: "Team"
       sub_links: []
