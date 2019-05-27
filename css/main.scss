@@ -147,12 +147,12 @@ body {
   }
 
   ul {
-    margin-left: 0.875rem;
+    margin-left: 1rem;
     width: 150%;
     li {
       margin: 8px 4px;
       color: #CCD6D2;
-      font-size: 0.875rem;
+      font-size: 1rem;
       text-align: left;
     }
   }
@@ -298,6 +298,9 @@ body {
   }
 }
 
+.block-header-2--cta {
+  font-size: 1rem !important;
+}
 
 .block-header-2 {
   position: relative;
@@ -310,7 +313,7 @@ body {
 
   .nav-item {
     margin: 0 !important;
-    padding: 0 0.5rem;
+    padding: 0 0.7rem;
   }
 
   .block-header-2--nav {
