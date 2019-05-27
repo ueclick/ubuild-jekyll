@@ -1,15 +1,15 @@
-<section class="block block-media-1 progressive__bg progressive--not-loaded"
-       {% if section.background_image %}
-       data-progressive="{{ section.background_image | relative_url }}"
-       data-progressive-sm="{{ section.background_image | prepend: 'medium' | relative_url }}"
-       style="background-image: url('{{ section.background_image | prepend: 'thumb' | relative_url }}')"
-       {% endif %}>
+<section class="block block-media-1" >
   <div class="container">
     <figure>
       <img class="progressive__img progressive--not-loaded" data-progressive="{{ section.image | relative_url }}" data-progressive-sm="{{ section.image | prepend: 'medium' | relative_url }}" src="{{ section.image | prepend: 'thumb' | relative_url }}" alt="{{ section.caption }}">
-      {% if section.caption %}
+      {% if section.caption != '' %}
       <figcaption>{{ section.caption }}</figcaption>
       {% endif %}
     </figure>
   </div>
+  {% if section.background_image %}
+  <div class="background-wrap progressive__bg progressive--not-loaded" data-progressive="{{ section.background_image | relative_url }}"
+       data-progressive-sm="{{ section.background_image | prepend: 'medium' | relative_url }}"
+       style="background-image: url('{{ section.background_image | prepend: 'thumb' | relative_url }}')"></div>
+  {% endif %}
 </section>

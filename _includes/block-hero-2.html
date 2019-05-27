@@ -1,12 +1,7 @@
 {% if section.image_alignment and section.image_alignment == "Right" %}
 {% include block-hero-3.html %}
 {% else %}
-<section class="block block-hero-2 progressive__bg progressive--not-loaded"
-         {% if section.background_image %}
-         data-progressive="{{ section.background_image | relative_url }}"
-         data-progressive-sm="{{ section.background_image | prepend: 'medium' | relative_url }}"
-         style="background-image: url('{{ section.background_image | prepend: 'thumb' | relative_url }}')"
-         {% endif %}>
+<section class="block block-hero-2">
   {% if section.video_url != '' %}
   <div class="video-bg-wrap">
     <video autoplay muted loop id="myVideo">
@@ -46,5 +41,10 @@
       </div>
     </div>
   </div>
+  {% if section.background_image %}
+  <div class="background-wrap progressive__bg progressive--not-loaded" data-progressive="{{ section.background_image | relative_url }}"
+       data-progressive-sm="{{ section.background_image | prepend: 'medium' | relative_url }}"
+       style="background-image: url('{{ section.background_image | prepend: 'thumb' | relative_url }}')"></div>
+  {% endif %}
 </section>
 {% endif %}
