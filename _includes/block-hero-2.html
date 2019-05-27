@@ -4,7 +4,7 @@
 <section class="block block-hero-2">
   {% if section.video_url != '' %}
   <div class="video-bg-wrap">
-    <video autoplay muted loop id="myVideo">
+    <video autoplay loop id="myVideo" webkit-playsinline="true" playsinline style="object-fit:fill">
       <source src="{{ section.video_url }}" type="video/mp4">
     </video>
   </div>

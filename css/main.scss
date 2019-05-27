@@ -244,6 +244,7 @@ body {
 
     video {
       position: absolute;
+      z-index: 1;
       top: 0;
       left: 0;
       min-height: 100%;
