@@ -49,7 +49,7 @@
         {% break %}
         {% endif %}
       {% endfor %}
-      <li class="nav-item {% if isActive %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %}" href="{{ nav_item.link }}">{{ nav_item.title }}</a>
+      <li class="nav-item {% if isActive %}active{% endif %}"><a class="{% if nav_item.sub_links.size > 0 %}hover{% endif %}" {% if nav_item.sub_links.size <= 0 %}href="{{ nav_item.link }}"{% endif %}>{{ nav_item.title }}</a>
         <ul class="sub-nav-items">
           {% for sub_item in nav_item.sub_links %}
             <li class="sub-nav-item {% if page.title == sub_item.link_text %}active{% endif %}"><a href="{{ sub_item.link }}">{{ sub_item.title }}</a></li>
