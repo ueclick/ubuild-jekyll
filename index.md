@@ -19,7 +19,7 @@ page_sections:
   image_alignment: Right
   text_color: "#57DDB0"
   title: ''
-  video_url: http://display.6edigital.com/videos/video.mp4
+  video_url: https://www.coherencedigital.com/video/video.mp4
   contents: []
 - template: hero-banner-w-image
   block: hero-2
