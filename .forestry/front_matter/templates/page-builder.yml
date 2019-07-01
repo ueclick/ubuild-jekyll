@@ -34,9 +34,9 @@ fields:
   - 4-column-banner
   - multiple-column-banner
 pages:
-- contact_us.md
-- co_working.md
 - data_science.md
-- social_crm.md
 - team.md
 - index.md
+- social_crm.md
+- co_working.md
+- contact_us.md
