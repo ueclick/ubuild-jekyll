@@ -18,9 +18,9 @@ page_sections:
   title: ''
   contents: []
   cta:
-    enabled: false
-    url: ''
-    button_text: ''
+    enabled: true
+    url: 'https://datascience.coherencedigital.com/login'
+    button_text: 'Use Our Product For Free'
 - template: hero-banner-w-image
   block: hero-2
   text_color: "#29243D"
