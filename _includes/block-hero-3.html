@@ -28,10 +28,9 @@
         </div>
         {% endfor %}
         {% if section.cta and section.cta.enabled == true %}
-        <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+        <a class="button primary inverted" target="_blank" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         {% endif %}
       </div>
-
       <div class="column media">
         {% if section.image.enabled %}
         <img class="progressive__img progressive--not-loaded" data-progressive="{{ section.image.image | relative_url }}" src="{{ section.image.image | prepend: 'thumb' | relative_url }}" alt="{{ section.image.alt_text }}">

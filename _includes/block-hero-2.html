@@ -36,7 +36,7 @@
         </div>
         {% endfor %}
         {% if section.cta and section.cta.enabled == true %}
-        <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+        <a class="button primary inverted" target="_blank" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         {% endif %}
       </div>
     </div>
