@@ -19,7 +19,7 @@ page_sections:
   contents: []
   cta:
     enabled: true
-    url: 'https://datascience.coherencedigital.com/login'
+    url: 'https://datascience.coherencedigital.com/login?tracking=fromCoherence'
     button_text: 'Use Our Product For Free'
 - template: hero-banner-w-image
   block: hero-2
